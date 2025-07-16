@@ -10,7 +10,7 @@ This program allows you to interact with the OpenAI API directly from the Linux 
 ```bash
 git clone git@github.com:RestlessByte/AITerminalLINUX.git && cd AITerminalLINUX && bun install && git clone git@github.com:RestlessByte/usingOpenAI.git && cd usingOpenAI && bun install && mv $pwd.env.example .env && code .env
 ```
-2. 🧸 Before starting, add your token to the `.env` file under Environment Variables for the desired neural network.
+2. 🧸 Before starting, add your token to the **`.env IN usingOpenAI/.env`** file under Environment Variables for the desired neural network.
 3. ✨ Run the program:
 bun index.ts
 ## 👥 For Whom?
