@@ -3,7 +3,7 @@
 - **Package Manager NPM**
 - **Package Manager BUN**
 - **Ethernet**
-# 🧠 OpenAI API Interaction Program
+# 🧠 OpenAI API, DeepSeek, Mistral AI Ollama, HugginFace and other AI models Interaction Program 
 This program allows you to interact with the OpenAI API directly from the Linux terminal.
 ## 👨🏽‍🔬 How to use?
 1. Install dependencies:
