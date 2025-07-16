@@ -94,8 +94,8 @@ async function processWithMistral(input: string): Promise<MistralResponse> {
       {
         user_prompt: `${input}`,
         system_prompt: `${getSystemPrompt(input)}`,
-        model: 'accounts/fireworks/models/deepseek-r1',
-        provider: 'Fireworks', options: { apiKey: 'fw_3ZRj4eGwtJBfbnU1ii6M1GwP' }
+        model: 'mistral-saba-latest',
+        provider: 'MistralAI',
       }
 
     ).then(e => e?.choices[0].message.content));
