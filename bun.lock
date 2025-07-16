@@ -4,6 +4,7 @@
     "": {
       "name": "readline",
       "dependencies": {
+        "@huggingface/inference": "^4.5.1",
         "dotenv": "^17.0.1",
         "ollama": "^0.5.16",
         "openai": "^5.3.0",
@@ -18,6 +19,12 @@
     },
   },
   "packages": {
+    "@huggingface/inference": ["@huggingface/inference@4.5.1", "", { "dependencies": { "@huggingface/jinja": "^0.5.1", "@huggingface/tasks": "^0.19.23" } }, "sha512-eMuugf8LfyqRyZxcdXH2sTk2Isb7+2B1lxHwdmHAOfaclfoNDC/OegZZ12Fp61WdgTXr+R/gM7oATMr3HXlN2g=="],
+
+    "@huggingface/jinja": ["@huggingface/jinja@0.5.1", "", {}, "sha512-yUZLld4lrM9iFxHCwFQ7D1HW2MWMwSbeB7WzWqFYDWK+rEb+WldkLdAJxUPOmgICMHZLzZGVcVjFh3w/YGubng=="],
+
+    "@huggingface/tasks": ["@huggingface/tasks@0.19.25", "", {}, "sha512-G/F7BBLhgtXJd4y4JI+9UaSoRzxYKeWefuERADAyeecyyAdCnm+F83dAYDAulU7I9wsWEK6jneLAzBaXFASUQg=="],
+
     "@types/bun": ["@types/bun@1.2.16", "", { "dependencies": { "bun-types": "1.2.16" } }, "sha512-1aCZJ/6nSiViw339RsaNhkNoEloLaPzZhxMOYEa7OzRzO41IGg5n/7I43/ZIAW/c+Q6cT12Vf7fOZOoVIzb5BQ=="],
 
     "@types/node": ["@types/node@24.0.3", "", { "dependencies": { "undici-types": "~7.8.0" } }, "sha512-R4I/kzCYAdRLzfiCabn9hxWfbuHS573x+r0dJMkkzThEa7pbrcDWK+9zu3e7aBOouf+rQAciqPFMnxwr0aWgKg=="],

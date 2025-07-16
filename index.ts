@@ -4,7 +4,7 @@ import { execSync } from 'child_process';
 import * as fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { usingOpenAI } from './core';
+import { usingOpenAI } from './usingOpenAI';
 // Конфигурация
 const CONTEXT_FILE = path.join(os.homedir(), '.terminal_assistant_context.json');
 const MAX_HISTORY = 220; // Максимальное количество сообщений в истории
